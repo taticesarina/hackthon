@@ -1,0 +1,47 @@
+<html>
+    
+    <head>
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="javascript.js"></script>
+    
+        
+       <title> Catch the clothes </title> 
+        
+        
+    </head>
+    <body>
+       <div id="container">
+           
+          <!-- HEre will be the basic game -->
+            <div id="background" class="back">
+                <div id="score">Score:<span>0</span> Points</div>
+                <div id="person" class="characters" ></div>
+                <div id="closet"></div>
+            </div>
+            <div id="buttons" class="popup">
+            
+                <h2>Catch The Clothes</h2>
+                <h4>Select your character</h4>
+                <div class="center-block" style="width:220px;">
+                    <div data-character="boy" class="characters boy"></div>
+                    <div data-character="girl" class="characters girl"></div>
+                </div>
+                
+                <p>Press the left and right buttons to move your characters. Touch the correct clothing to earn points.</p>
+               
+            </div>
+            <div id="winner" class="popup hide">
+                <h1>YOU WON!!</h1>
+            </div>
+             <div id="loser" class="popup hide">
+                <h1>YOU LOST!!</h1>
+            </div>
+       </div> 
+      <audio autoplay>
+          <source src="mario.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </body>
+</html>

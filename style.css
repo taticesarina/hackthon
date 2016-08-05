@@ -1,0 +1,233 @@
+html, body{
+    overflow-y:hidden;
+}
+
+
+#container {
+    width:100%;
+    height:100%;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    position:relative;
+    overflow:hidden;
+}
+
+
+#background {
+    width:100%;
+    height:100%;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    position:absolute;
+     background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index:0;
+}
+
+.center{
+    margin:0 auto;
+    
+}
+h2,h4,p{
+    text-align: center
+}
+
+.popup{
+    position:absolute;
+    z-index: 100;
+    background-color:lightgray;
+    top:10%;
+    left:50%;
+    transform:translateX(-50%);
+    padding:50px;
+    
+}
+
+#buttons .characters:hover{
+    cursor:pointer;
+    background-color:gray;
+}
+
+
+.hide{
+    display:none;
+}
+
+#score {
+    position:absolute;
+    top:0;
+    right:0;
+    z-index:99;
+    background-color:white;
+    border-style: dotted solid;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    font-size:20px;
+    
+
+    
+    
+}
+
+#container.spring #background {
+    background-image:url("images/Spring/afternoonofspring.gif");
+    
+    
+}
+
+#container.winter #background {
+    background-image:url("images/Winter/backgroundwinter.jpg");
+    
+}
+
+#container.beach #background {
+    background-image:url("images/beach/maxresdefault.jpg");
+    
+     
+}
+
+#container.western #background {
+    background-image:url("images/Western/western-background.jpg");
+}
+
+.btn {
+    height:35px;
+    width:200px;
+}
+
+#score {
+    
+    z-index:1;
+}
+
+#person {
+    width:75px;
+   height:100px; 
+  
+    position:absolute;
+    bottom:0px;
+    left:50%;
+    z-index:1;
+    transition: left 0.1s;
+    
+}
+
+#closet {
+    position: relative;
+}
+
+#closet .clothes {
+    position: absolute;
+}
+ 
+.clothes {
+ width:100px;   
+ height:100px;
+ background-size:contain;
+ background-repeat: no-repeat;
+ background-position: center; 
+ transition:top 0.1s;
+}
+
+.characters{
+    width:100px;
+    height:150px;
+    background-size:contain;
+ background-repeat: no-repeat;
+ background-position: center; 
+ display:inline-block;
+}
+
+.beach-sandals{
+background-image:url("images/beach/sandals.jpg");    
+}
+
+.beach-hawaiian{
+    background-image:url("images/beach/hawaiianshirt.png");
+}
+
+.beach-hat{
+    background-image:url("images/beach/hat.png");
+}
+.beach-shorts{
+    background-image:url("images/beach/beachshorts.png");
+}
+
+    
+.winter-boots{
+    background-image:url("images/Winter/WinterBoots.png");
+}
+
+.winter-hat{
+    background-image:url("images/Winter/winter-hat.png");
+}
+
+.winter-mittens{
+    background-image:url("images/Winter/mittens-pink.png");
+}
+
+.winter-sweater{
+    background-image:url("images/Winter/ugly-sweater.png");
+}
+
+.boy{
+    background-image:url("images/characters/boy.png");
+}
+
+.girl{
+    background-image:url("images/characters/girl.png");
+}
+
+.red{
+    background-color:red;
+}
+ .western-cowboyboots{
+     background-image:url("images/Western/cowboyboots.png");
+ }
+.western-cowboyhat{
+    background-image:url("images/Western/cowboyhat.png"); 
+}
+.western-cowboyjacket{
+    background-image:url("images/Western/cowboyjacket.png"); 
+}
+.western-lasso{
+    background-image:url("images/Western/lasso.png");
+}
+
+.fancy-dress{
+    background-image:url("images/Fancy/fancy-dress.png");
+}
+
+.fancy-suit{
+    background-image:url("images/Fancy/fancy-suit.png");
+}
+
+.fancy-shoe{
+    background-image:url("images/Fancy/shoe.png");
+}
+
+.fancy-hat{
+    background-image:url("images/Fancy/tophat.png");
+}
+
+.western-background{
+    background-image:url("images/Western/western-background.jpg"); 
+    background-size: contain;
+}
+
+.beach-background{
+    background-image:url("images/beach/beach-background.jpg");
+}
+
+.fancy-background{
+    background-image:url("images/Fancy/ballroom-background.jpg");
+}
+.winter-background{
+    background-image:url("images/Winter/winter-background.jpg");
+}
